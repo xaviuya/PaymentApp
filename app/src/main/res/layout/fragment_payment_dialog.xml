@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wyattsamberg.com.ipayment3.fragments.CartFragment">
+
+    <LinearLayout
+        android:id="@+id/container_total_pay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_pay"
+        android:background="#A9A9A9"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/lbl_cart_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart Total: "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl_cart_total_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="$ 45.00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container_total_pay"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_close_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#A9A9A9"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Close" />
+
+    </LinearLayout>
+
+</RelativeLayout>

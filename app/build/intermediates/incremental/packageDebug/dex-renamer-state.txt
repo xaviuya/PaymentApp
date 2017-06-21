@@ -1,0 +1,7 @@
+#Wed Jun 21 17:58:45 EDT 2017
+base.0=/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_77a583939516fec0175a575519d1ff0303722016
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_740390337c8a036bc87d1623351ec57c79439f60/classes.dex
+base.1=/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_740390337c8a036bc87d1623351ec57c79439f60
+file.0=/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_77a583939516fec0175a575519d1ff0303722016/classes.dex

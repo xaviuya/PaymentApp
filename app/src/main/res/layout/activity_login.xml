@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wyattsamberg.com.ipayment3.activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_above="@+id/etMerchantId"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:text="Login"/>
+
+        <EditText
+            android:id="@+id/etMerchantId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_centerVertical="true"
+            android:hint="Merchant Id" />
+
+        <EditText
+            android:id="@+id/etMerchantKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_below="@+id/etMerchantId"
+            android:layout_marginTop="8dp"
+            android:hint="Merchant Key" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_below="@id/etMerchantKey"
+            android:text="Login" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

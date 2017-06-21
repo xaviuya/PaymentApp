@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wyattsamberg.com.ipayment3.fragments.CartFragment">
+
+    <LinearLayout
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="#008000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="16dp"
+            android:text="Pay"
+            android:textColor="#FFFFFF"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="pay"
+            android:padding="16dp"
+            android:src="@drawable/ic_arrow_forward_white_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_total_pay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_pay"
+        android:background="#A9A9A9"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/lbl_total_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="italic|bold"
+            tools:text="0.00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_payment_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container_total_pay"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="Payment Information"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/fld_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_margin="16dp"
+            android:hint="Card Number" />
+
+        <EditText
+            android:id="@+id/fld_tip_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="numberDecimal"
+            android:hint="Tip Amount" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_view_cart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#A9A9A9"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/lbl_view_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Cart"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

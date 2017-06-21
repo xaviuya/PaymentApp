@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/lbl_gateway_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:text="APPROVED"/>
+
+    <TextView
+        android:id="@+id/lbl_transaction_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_gateway_response"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="3d50ad70-f702-4873-8cd8-6366be86773f" />
+
+    <TextView
+        android:id="@+id/lbl_authorized_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        tools:text="$ 20.00" />
+
+    <TextView
+        android:id="@+id/lbl_tip_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_transaction_id"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Tip Amount: $ 30.00" />
+</RelativeLayout>

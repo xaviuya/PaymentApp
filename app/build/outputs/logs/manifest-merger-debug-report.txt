@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:7:5-26:19
+MERGED from [com.android.support:design:25.3.1] /Users/wyattevans/.android/build-cache/084259f9ddd3c4477c135cf5d36adb973045f701/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/wyattevans/.android/build-cache/b2050f11f4834231eaa9c8599e3a86ec58fb9dc2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/wyattevans/.android/build-cache/91776e7ebf5ebeb552da6be35add29d7b960aee9/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/wyattevans/.android/build-cache/21e09fd617a9e26c545af000db9be95d1d4201da/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/wyattevans/.android/build-cache/4503b15b5c6109278111765198d13339099d831f/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/wyattevans/.android/build-cache/d8c42b52a3024f81c27ab3e3d0136304cdcce833/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/wyattevans/.android/build-cache/73f63025edd0d483018b5c6a4d9c3993d75fbe41/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/wyattevans/.android/build-cache/c9b2da7e8531417c696a3ff173d94b6a644e48cc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/wyattevans/.android/build-cache/13f49cb973ea64ffd5ed1ce421ea11455358afa6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/wyattevans/.android/build-cache/afc10cd29eb50850ab6b05bdfb3ea1fd54bec3b0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/wyattevans/.android/build-cache/657db036991dd4b173e4f053c2da292fa16329e8/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:13:9-40
+activity#wyattsamberg.com.ipayment3.activities.LoginActivity
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:14:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:18:27-74
+activity#wyattsamberg.com.ipayment3.activities.HomeActivity
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:21:9-23:36
+	android:label
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:23:13-33
+	android:name
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:22:13-52
+activity#wyattsamberg.com.ipayment3.activities.CheckoutActivity
+ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:24:9-25:40
+	android:label
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml:24:19-62
+uses-sdk
+INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /Users/wyattevans/.android/build-cache/084259f9ddd3c4477c135cf5d36adb973045f701/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/wyattevans/.android/build-cache/b2050f11f4834231eaa9c8599e3a86ec58fb9dc2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/wyattevans/.android/build-cache/91776e7ebf5ebeb552da6be35add29d7b960aee9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/wyattevans/.android/build-cache/d820799bf4627d82ff452b859be371c32fd8b508/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/wyattevans/.android/build-cache/21e09fd617a9e26c545af000db9be95d1d4201da/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/wyattevans/.android/build-cache/4503b15b5c6109278111765198d13339099d831f/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:25.3.1] /Users/wyattevans/.android/build-cache/d8c42b52a3024f81c27ab3e3d0136304cdcce833/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/wyattevans/.android/build-cache/73f63025edd0d483018b5c6a4d9c3993d75fbe41/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/wyattevans/.android/build-cache/c9b2da7e8531417c696a3ff173d94b6a644e48cc/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/wyattevans/.android/build-cache/13f49cb973ea64ffd5ed1ce421ea11455358afa6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/wyattevans/.android/build-cache/afc10cd29eb50850ab6b05bdfb3ea1fd54bec3b0/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/wyattevans/.android/build-cache/657db036991dd4b173e4f053c2da292fa16329e8/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/wyattevans/.android/build-cache/084259f9ddd3c4477c135cf5d36adb973045f701/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wyattevans/Downloads/iPayment3/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/wyattevans/.android/build-cache/084259f9ddd3c4477c135cf5d36adb973045f701/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/wyattevans/.android/build-cache/b2050f11f4834231eaa9c8599e3a86ec58fb9dc2/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/wyattevans/.android/build-cache/91776e7ebf5ebeb552da6be35add29d7b960aee9/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/wyattevans/.android/build-cache/d820799bf4627d82ff452b859be371c32fd8b508/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/wyattevans/.android/build-cache/21e09fd617a9e26c545af000db9be95d1d4201da/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/wyattevans/.android/build-cache/d8c42b52a3024f81c27ab3e3d0136304cdcce833/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/wyattevans/.android/build-cache/73f63025edd0d483018b5c6a4d9c3993d75fbe41/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/wyattevans/.android/build-cache/c9b2da7e8531417c696a3ff173d94b6a644e48cc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/wyattevans/.android/build-cache/13f49cb973ea64ffd5ed1ce421ea11455358afa6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/wyattevans/.android/build-cache/afc10cd29eb50850ab6b05bdfb3ea1fd54bec3b0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/wyattevans/.android/build-cache/657db036991dd4b173e4f053c2da292fa16329e8/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/wyattevans/.android/build-cache/084259f9ddd3c4477c135cf5d36adb973045f701/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/wyattevans/.android/build-cache/084259f9ddd3c4477c135cf5d36adb973045f701/output/AndroidManifest.xml:26:9-47

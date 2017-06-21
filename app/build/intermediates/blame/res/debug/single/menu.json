@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/menu/menu_bottom_nav_home.xml",
+        "source": "/Users/wyattevans/Downloads/iPayment3/app/src/main/res/menu/menu_bottom_nav_home.xml"
+    },
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/menu/menu_options_home.xml",
+        "source": "/Users/wyattevans/Downloads/iPayment3/app/src/main/res/menu/menu_options_home.xml"
+    }
+]

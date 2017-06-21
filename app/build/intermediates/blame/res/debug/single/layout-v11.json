@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/wyattevans/Downloads/iPayment3/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/wyattevans/.android/build-cache/5599c91d882d61bcba702c5c47933b1fc188f438/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    }
+]
